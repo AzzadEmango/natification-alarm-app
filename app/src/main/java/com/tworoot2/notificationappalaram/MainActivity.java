@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cancelButton = (Button) findViewById(R.id.button2);
         text = (EditText) findViewById(R.id.editText);
 
-        //onNewIntent(getIntent());
 
         Intent intent = getIntent();
         if(intent!=null) {
